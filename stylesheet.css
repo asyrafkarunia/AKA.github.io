@@ -146,17 +146,24 @@ header {
   float: left;
   width: 25%;
 }
-
+@keyframes animasirotate{
+  from{transform: rotateX(180deg);}
+  to{transform: rotateX(0);}
+  
+}
+  
 .lesson-icon {
   position: relative;
+  animation: animasirotate 0.3s;
+    
 }
 
 .lesson-icon p {
   position: absolute;
-  top: 30%;
+  top: 44%;
   width: 100%;
   color: white;
-  font-size: 30px;
+  
 }
 
 .text-contents {
