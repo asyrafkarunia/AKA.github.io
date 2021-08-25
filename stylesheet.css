@@ -74,7 +74,7 @@ a {
 
 .btn:hover {
   opacity: 1;
-  animation: animasirotate 0,4s;
+  animation: animasirotate 0.4s;
 }
 
 .fa {
@@ -147,7 +147,7 @@ header {
   float: left;
   width: 25%;
 }
-@keyframes animasirotate{
+@keyframes animasirotate {
   from{transform: rotateX(180deg);}
   to{transform: rotateX(0);}
   
