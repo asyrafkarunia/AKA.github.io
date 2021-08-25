@@ -154,10 +154,12 @@ header {
   
 .lesson-icon {
   position: relative;
-  animation: animasirotate 0.3s;
+
     
 }
-
+.lesson-icon:hover {
+  animation: animasirotate 0.3s;
+}
 .lesson-icon p {
   position: absolute;
   top: 44%;
