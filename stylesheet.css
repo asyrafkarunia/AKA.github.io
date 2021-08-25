@@ -74,7 +74,7 @@ a {
 
 .btn:hover {
   opacity: 1;
-  animation: animasirotate ;
+  animation-name: animasirotate ;
   animation-duration: 0.4s;
 }
 
