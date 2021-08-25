@@ -74,6 +74,7 @@ a {
 
 .btn:hover {
   opacity: 1;
+  animation: animasirotate 0,4s;
 }
 
 .fa {
@@ -157,9 +158,7 @@ header {
 
     
 }
-.lesson-icon:hover {
-  animation: animasirotate 0.3s;
-}
+
 .lesson-icon p {
   position: absolute;
   top: 44%;
