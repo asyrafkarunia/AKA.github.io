@@ -89,7 +89,9 @@
     top: 0;
     z-index: 10;
   }
-  
+  @keyframes geser {
+   
+  }
   .header-left h2 {
     width: 124px;
     margin-top: 20px;
@@ -160,7 +162,11 @@
   
       
   }
-  
+  .lesson-icon:hover {
+   width: 300px;
+   height: 300px;
+   transform: rotate(180deg);
+  }
   .lesson-icon p {
     position: absolute;
     top: 44%;
