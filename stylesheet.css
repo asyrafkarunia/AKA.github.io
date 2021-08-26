@@ -159,15 +159,9 @@
     
   .lesson-icon {
     position: relative;
-    transition: width 2s, height 2s, transform 2s;
-  
       
   }
-  .lesson-icon:hover {
-   width: 300px;
-   height: 300px;
-   transform: rotate(180deg);
-  }
+
   .lesson-icon p {
     position: absolute;
     top: 44%;
